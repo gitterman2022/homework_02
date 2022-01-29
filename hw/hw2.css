@@ -1,0 +1,252 @@
+/* styling divs */
+/* this is for first div */
+.div1{
+    width: 100%;
+    height: 700px;
+    background-image: url('ny.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.div1-child{
+    text-align:center;
+    margin:auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+.div1-child h3{
+    color: #fff;
+    font-weight: 500;
+    position: absolute;
+    left: 0;
+    right: 0;  
+    bottom: 50px;
+}
+.div1-child p{
+    position:absolute;
+    left: 0;
+    right: 0;
+    color: #fff;
+    bottom: 30px;
+}
+/* this is for second div */
+.div2{
+    width: 100%;
+    background-color: #fff;
+    height: 700px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+.div2-child{
+    width:50%;
+    height: 50%;
+    margin:auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+.div2-child h3{
+    font-weight: 500;
+    margin-top: 50px;
+}
+.div2-child p{
+    font-weight: 400;
+    margin: 0 0 10px;
+}
+.div2-child i{
+    color: #777;
+}
+/* this is for third div */
+.div3{
+    width: 100%;
+    background-color: #2d2d30;
+    height: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+.div3-child{
+    width:50%;
+    height: 50%;
+    margin:auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+.div3-child h3{
+    font-weight: 500;
+    margin-top: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+.div3-child p{
+    font-weight: 400;
+    text-align: center;
+}
+.div3-child i{
+    color: #777;
+}
+.div3-child ul{
+    padding-left: 0;
+    margin-top: 0;
+    color: #bdbdbd;
+    font-weight: 400;
+}
+.div3-child li{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.normal-span{
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    color: #fff;
+    border-radius: .25em;
+    background-color: #d9534f;
+}
+.diferrent-span{
+    float: right;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #777;
+    border-radius: 10px;
+}
+/* this is for fourth div */
+.div4{
+    width: 100%;
+    background-color: #fff;
+    height: 700px;
+    text-align: center;
+    position: relative;
+}
+.div4 h3{
+    font-weight: 500;
+    color: #111;
+    font-size: 20px;
+    margin-top: 0;
+    padding-top: 50px;
+}
+.div4 p{
+    font-weight: 400;
+    margin: 0 0 10px;
+}
+.div4 i{
+    color: #777;
+}
+.div4-child{
+    width:50%;
+    height: 50%;
+    margin:auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+.div4-child-left{
+    float: left;
+    height: 50%;
+    width: 50%;
+}
+.div4-child-left p{
+    text-align: left;
+}
+.div4-child-left p img{
+    height: 12px;
+    width: 12px;
+}
+.div4-child-right{
+    float: right;
+    height: 50%;
+    width: 50%;
+}
+.div4-child ul{
+    padding-left: 0;
+    margin-top: 0;
+    color: #bdbdbd;
+    font-weight: 400;
+}
+.div4-child li{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    display: block;
+    padding: 10px 15px;
+    background-color: #fff;
+}
+.div4-child-right #name{
+    width: 43%;
+    float: left;
+    display: block;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.div4-child-right #email{
+    width: 43%;
+    float: right;
+    display: block;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.div4-child-right .msg{
+    width: 94%;
+    display: block;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-top: 40px;
+}
+.div4-child-right .btn{
+    float: right;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    transition: .2s;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #333;
+}
+/* this is for fifth div */
+.div5{
+    width: 100%;
+    height: 700px;
+    background-image: url('map.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
